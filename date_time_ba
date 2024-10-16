@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Get the current date and time
+current_date_time=$(date +"%Y-%m-%d %H:%M:%S")
+
+# Print the current date and time
+echo "This is a Bash script running in Linux."
+echo "Current date and time: $current_date_time"

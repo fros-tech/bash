@@ -1,0 +1,17 @@
+#!/bin/python
+
+from datetime import datetime
+
+def main():
+    # Get the current date and time
+    now = datetime.now()
+    
+    # Format the date and time
+    current_time = now.strftime("%Y-%m-%d %H:%M:%S")
+    
+    # Print a message
+    print(f"This is a Python script running in Linux.")
+    print(f"Current date and time: {current_time}")
+
+if __name__ == "__main__":
+    main()

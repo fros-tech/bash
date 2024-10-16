@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+  echo "Ingen parametre angivet"
+else
+  echo "Der er indtastet $# paramtre"
+  echo "Gennemløber alle parametre"
+  for u in $@ ; do
+    echo $u
+  done
+fi

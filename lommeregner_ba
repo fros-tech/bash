@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Total arguments
+n=$#
+echo "Total arguments passed: $n"
+
+# Name of the script
+echo "Name of Bash script: $0"
+
+# Arguments passed
+echo -n "Arguments passed: "
+for arg in "$@"; do
+    echo -n "$arg "
+done
+
+# Addition of numbers
+sum=0
+
+# Calculate the sum of numeric arguments
+for arg in "$@"; do
+    sum=$((sum + arg))
+done
+
+echo -e "\n\nResult: $sum"
